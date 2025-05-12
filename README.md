@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date:12/05/2025
+## Register Number:212224230047
+## Name:Clarissa K
 ## Problem Title
 SIH 1653: Web based Selector-Applicant Simulation Software
 ## Problem Description
@@ -12,15 +12,69 @@ Ministry of Defence
 
 ## Idea
 
+Create a smart, AI-powered interview platform that simulates a real boardroom experience. It will ask relevant questions based on the applicant’s field, evaluate their responses, and score both questions and answers for relevance and quality. This helps in objectively selecting the best candidate.
 
 ## Proposed Solution / Architecture Diagram
+User Interface (UI): For candidate and panel interaction (web or app-based).
 
+AI Interview Engine:
+
+Generates ice-breaker and domain-specific questions.
+
+Understands candidate profile and tailors questions accordingly.
+
+Response Analyzer:
+
+Uses NLP (Natural Language Processing) to evaluate candidate answers.
+
+Scores relevance, clarity, and accuracy.
+
+Expert Feedback Module:
+
+Allows experts to rate both questions and answers.
+
+AI uses this feedback to learn and improve.
+
+Scoring and Reporting System:
+
+Combines scores from AI and experts.
+
+Provides a final report on candidate performance.
 
 ## Use Cases
+Candidate Interview Simulation:
+Candidates experience a realistic panel interview and receive feedback.
+
+Expert Interview Assistance:
+Experts get relevant question suggestions and AI-supported evaluations.
+
+Scoring and Ranking System:
+Automates the grading of interviews to ensure fairness and consistency.
+
+Training Tool:
+Can be used to train new interviewers on how to conduct objective assessments.
 
 
 ## Technology Stack
+Frontend: React.js / Angular (for UI)
 
+Backend: Node.js / Django / Flask
+
+AI/NLP: Python with OpenAI GPT models / BERT
+
+Database: PostgreSQL / MongoDB
+
+Cloud Hosting: AWS / Azure / Google Cloud
+
+Speech-to-Text (optional): Google Speech API / Whisper
 
 ## Dependencies
+Candidate profiles/resumes (for domain understanding)
 
+Predefined question banks (for each domain and level)
+
+Expert ratings for training AI models
+
+Internet connectivity and cloud infrastructure
+
+Integration with DRDO HR systems (for real-time data)
